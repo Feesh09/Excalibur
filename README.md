@@ -24,7 +24,7 @@ src="https://api.codeclimate.com/v1/badges/625ac657215f73bab8e5/test_coverage" /
 
 **ftpsniffer.py**: This Python script is designed to sniff the host machine for any FTP attempts. When a user attempts to FTP onto a server, the script will print to the console the username, password, and IP used for the FTP connection.\
 
-**httpsniffer.py**: This Python script is designed to sniff the host machine for any HTTP packet in an attempt to grab a packet that contains a user's username and password they used to log into a website. The script will print out the captured packet's URL for the site logged into and payload that contains the username and password. The below images show what the script will print to console when I attempt to log on to http://demo.testfire.net/login.jsp with the username and password of admin / admin.\
+**httpsniffer.py**: This Python script is designed to sniff the host machine for any HTTP packet in an attempt to grab a packet that contains a user's username and password they used to log into a website. The script will print out the captured packet's URL for the site logged into and payload that contains the username and password./
 
 **synflood.py**: This Python script will attempt a SYN Flood attack. The script will consistently send packets to the destination IP address and port specified by the user, masquerading as an IP address different than the machine that is running the program. For example, this script can be used to block port 80 on the target, resulting in the target being unable to/slowly able to access the internet.\
 
